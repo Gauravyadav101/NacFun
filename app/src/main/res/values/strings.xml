@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NacFun</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_chooser">Image Chooser</string>
+</resources>
