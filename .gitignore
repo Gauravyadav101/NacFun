@@ -13,3 +13,5 @@
 .externalNativeBuild
 .cxx
 local.properties
+libs/
+src/main/res/values-night/
