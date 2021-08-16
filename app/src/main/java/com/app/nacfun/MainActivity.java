@@ -32,14 +32,15 @@ import java.io.IOException;
 // mWebView.loadUrl("https://nacfun.com/");
 public class MainActivity extends AppCompatActivity {
     private WebView web;
-    String webUrl = "https://nacfun.com/";
+   // String webUrl = "https://nacfun.com/";
+
+    String webUrl = "https://nacfun.com/Smart";
 
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
 
 
     public Context context;
-
     private static final String TAG = MainActivity.class.getSimpleName();
 
     private static final int FILECHOOSER_RESULTCODE = 1;
