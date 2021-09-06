@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private WebView web;
    // String webUrl = "https://nacfun.com/";
 
-    String webUrl = "https://nacfun.com/Smart";
+    String webUrl = "https://nacfun.com/Smart/";
 
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
@@ -211,6 +211,7 @@ public class MainActivity extends AppCompatActivity {
                             || webSiteUrl.contains("nacfun.com/smart/create/testimonial") || webSiteUrl.contains("nacfun.com/yourtestimonial") || webSiteUrl.contains("nacfun.com/freestyle.php") || webSiteUrl.contains("nacfun.com/freestyle/freestyle.php")
                             || webSiteUrl.contains("nacfun.com/videodraw/national-song-no-1-class-7") || webSiteUrl.contains("nacfun.com/video-activity") || webSiteUrl.contains("nacfun.com/nachodance") ||  webSiteUrl.contains("nacfun.com/libraryshare.php?vid=libchal")
                             || webSiteUrl.contains("nacfun.com/libraryshare.php?vid=libchal_16072") || webSiteUrl.contains("nacfun.com/") || webSiteUrl.contains("nacfun.com/mobile/") ||  webSiteUrl.contains("nacfun.com/home/") ||  webSiteUrl.contains("nacfun.com/Register/") ||  webSiteUrl.contains("nacfun.com/fun-n-learn/activities-for-kids") ||  webSiteUrl.contains("nacfun.com/pre-school-for-kids")
+                            || webSiteUrl.contains("nacfun.com/smart/create/workout-video-step2.php") || webSiteUrl.contains("nacfun.com/smart/create/workout-video-step3.php") || webSiteUrl.contains("nacfun.com/s/struff-1-test.php?contid=109521") ||  webSiteUrl.contains("nacfun.com/s/struff-1-test.php?contid=109548") || webSiteUrl.contains("nacfun.com/a/rotary-club-of-mumbai-lakers-charities-trust")
                     ) {
                         contentSelectionIntent.setType("video/*");
                     } else if (webSiteUrl.contains("https://nacfun.com/smart/publishlesson.php")) {
