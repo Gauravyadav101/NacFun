@@ -29,12 +29,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.io.File;
 import java.io.IOException;
 
+//Gaurav
 // mWebView.loadUrl("https://nacfun.com/");
 public class MainActivity extends AppCompatActivity {
     private WebView web;
-    // String webUrl = "https://nacfun.com/";
+     String webUrl = "https://nacfun.com/";
 
-    String webUrl = "https://nacfun.com/Smart/";
+    //String webUrl = "https://nacfun.com/Smart/";
 
     public ValueCallback<Uri[]> uploadMessage;
     public static final int REQUEST_SELECT_FILE = 100;
